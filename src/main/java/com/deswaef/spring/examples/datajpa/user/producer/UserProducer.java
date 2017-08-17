@@ -51,7 +51,7 @@ public class UserProducer {
 //     }
     
     @RequestMapping(values="/findbyid/{id}", Method="RequestMethod.GET")
-    private void findUsers(@PathVariable int id) {
+    private Users findUsers(@PathVariable int id) {
         logger.info("Trying to find all users.");
         userService.findUsers(id);
         
