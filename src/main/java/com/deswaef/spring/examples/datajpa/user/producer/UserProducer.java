@@ -42,7 +42,7 @@ public class UserProducer {
     
     @RequestMappping(value="/adduser", Method="RequestMethod.POST")
     public void addUser(User user){
-        userSercice.addUser();
+        userService.addUser();
         
     }
 //     private void addOneUser() {
