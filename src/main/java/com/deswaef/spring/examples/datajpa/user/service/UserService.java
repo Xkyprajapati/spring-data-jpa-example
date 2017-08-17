@@ -32,5 +32,5 @@ public class UserService {
     }
     
     public User findUsers(int id){
-        userRepository.findOne(id);
+        return userRepository.findOne(id);
 }
