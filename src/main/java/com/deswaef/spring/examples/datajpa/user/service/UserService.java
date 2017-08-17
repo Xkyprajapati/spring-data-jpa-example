@@ -33,4 +33,5 @@ public class UserService {
     
     public User findUsers(int id){
         return userRepository.findOne(id);
+    }   
 }
